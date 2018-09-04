@@ -1,0 +1,39 @@
+#board {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.die {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 4px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  padding: 5px;
+  color: red;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background: black;
+  border-radius: 100px;
+}
+
+#controls {
+  padding: 10px;
+  text-align: center;
+}
